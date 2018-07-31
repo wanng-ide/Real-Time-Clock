@@ -22,12 +22,12 @@ public class RealTimeClock{
         JMenuBar menuBar = new JMenuBar();
         frame.setJMenuBar(menuBar);
         JMenu menu1 = new JMenu("Name");
-        JMenu menu2 = new JMenu("Student ID");
+        JMenu menu2 = new JMenu("Description");
         menuBar.add(menu1);
         menuBar.add(menu2);
         // add menu items
-        JMenuItem item1 = new JMenuItem("WANG JUNJIE");
-        JMenuItem item2 = new JMenuItem("1W15BG03-0");
+        JMenuItem item1 = new JMenuItem("wanng");
+        JMenuItem item2 = new JMenuItem("Hello, Java!");
         menu1.add(item1);
         menu2.add(item2);
 
